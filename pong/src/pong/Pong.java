@@ -171,7 +171,7 @@ public class Pong implements ActionListener, KeyListener
 
 		if (dificuldade)
 		{
-			String string = nivel == 0 ? "Fácil" : (nivel == 1 ? "Médio" : "Difício");
+			String string = nivel == 0 ? "Fácil" : (nivel == 1 ? "Médio" : "Difícil");
 
 			g.setFont(new Font("Arial", 1, 30));
 
